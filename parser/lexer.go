@@ -23,7 +23,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/zenreach/go-jsonnet/ast"
 )
 
 // ---------------------------------------------------------------------------

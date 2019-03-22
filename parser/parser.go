@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/zenreach/go-jsonnet/ast"
 )
 
 type precedence int

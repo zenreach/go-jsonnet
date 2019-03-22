@@ -1,0 +1,13 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = [
+        "cache.go",
+        "contents.go",
+        "file_importer.go",
+        "memory_importer.go",
+    ],
+    importpath = "github.com/zenreach/service-manifests/importer",
+    visibility = ["//visibility:public"],
+)

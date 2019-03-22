@@ -18,7 +18,7 @@ package parser
 import (
 	"testing"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/zenreach/go-jsonnet/ast"
 )
 
 type lexTest struct {

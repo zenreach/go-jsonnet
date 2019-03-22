@@ -1,0 +1,17 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = [
+        "builtins.go",
+        "value.go",
+        "vm.go",
+    ],
+    importpath = "github.com/zenreach/service-manifests/vm",
+    visibility = ["//visibility:public"],
+    deps = [
+        "@com_github_google_go_jsonnet//ast:go_default_library",
+        "@com_github_zenreach_go_jsonnet//ast:go_default_library",
+        "@com_github_zenreach_go_jsonnet//parser:go_default_library",
+    ],
+)
